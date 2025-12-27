@@ -1,0 +1,7 @@
+site_name: CASA Theoretical Knowledge
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+
+extra_css:
+  - stylesheets/extra.css
