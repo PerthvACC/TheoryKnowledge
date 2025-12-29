@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2025-12-27</lastmod>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/perthad/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/perthtcu/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/s1/acd/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/s1/coord/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/s1/smc/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/s2/adc/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/s2/coord/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/s3/arrivals/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/s3/coord/</loc>
+         <lastmod>2025-12-29</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/s3/departures/</loc>
+         <lastmod>2025-12-29</lastmod>
     </url>
 </urlset>
