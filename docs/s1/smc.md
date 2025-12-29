@@ -1,1 +1,0 @@
-# SMC - Surface Movement Control
