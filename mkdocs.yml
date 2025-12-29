@@ -51,7 +51,6 @@ theme:
 plugins:
   - search:
       lang: en
-  - glightbox    
   - git-revision-date-localized:
       type: date
 
