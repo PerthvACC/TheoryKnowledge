@@ -7,6 +7,8 @@ nav:
     - perthad.md
   - Terminal Area:
     - perthtcu.md
+  - Enroute:
+    - phctr.md
   - Student 1:
     - s1/acd.md
     - s1/smc.md
@@ -18,6 +20,14 @@ nav:
     - s3/arrivals.md
     - s3/departures.md
     - s3/coord.md
+  - Controller Skills:
+    - controllerskills/callsigns.md
+    - controllerskills/circuits.md
+    - controllerskills/coordination.md
+    - controllerskills/handover.md
+    - controllerskills/heliops.md
+    - controllerskills/rwymanagement.md
+    - controllerskills/sequencing.md
 
 
 theme:
