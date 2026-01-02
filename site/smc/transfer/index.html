@@ -8,25 +8,31 @@
       
       
       
+        <link rel="canonical" href="https://perthvacc.github.io/TheoryKnowledge/smc/transfer/">
       
+      
+        <link rel="prev" href="../runways/">
+      
+      
+        <link rel="next" href="../atis/">
       
       
         
       
       
-      <link rel="icon" href="/TheoryKnowledge/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>CASA Theoretical Knowledge</title>
+        <title>Frequency Transfer to ADC - CASA Theoretical Knowledge</title>
       
     
     
-      <link rel="stylesheet" href="/TheoryKnowledge/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/TheoryKnowledge/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -45,11 +51,11 @@
       
     
     
-      <link rel="stylesheet" href="/TheoryKnowledge/stylesheets/admonitions.css">
+      <link rel="stylesheet" href="../../stylesheets/admonitions.css">
     
-      <link rel="stylesheet" href="/TheoryKnowledge/stylesheets/navigation.css">
+      <link rel="stylesheet" href="../../stylesheets/navigation.css">
     
-    <script>__md_scope=new URL("/TheoryKnowledge/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#frequency-transfer-to-adc" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,9 +96,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/TheoryKnowledge/." title="CASA Theoretical Knowledge" class="md-header__button md-logo" aria-label="CASA Theoretical Knowledge" data-md-component="logo">
+    <a href="../.." title="CASA Theoretical Knowledge" class="md-header__button md-logo" aria-label="CASA Theoretical Knowledge" data-md-component="logo">
       
-  <img src="/TheoryKnowledge/assets/images/casalogo.png" alt="logo">
+  <img src="../../assets/images/casalogo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -104,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Frequency Transfer to ADC
             
           </span>
         </div>
@@ -204,7 +215,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/TheoryKnowledge/." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -225,7 +236,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/TheoryKnowledge/perthad/" class="md-tabs__link">
+        <a href="../../perthad/" class="md-tabs__link">
           
   
   
@@ -241,11 +252,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/TheoryKnowledge/acd/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../acd/" class="md-tabs__link">
           
   
   
@@ -265,7 +278,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/TheoryKnowledge/adc/adc/" class="md-tabs__link">
+        <a href="../../adc/adc/" class="md-tabs__link">
           
   
   
@@ -305,9 +318,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/TheoryKnowledge/." title="CASA Theoretical Knowledge" class="md-nav__button md-logo" aria-label="CASA Theoretical Knowledge" data-md-component="logo">
+    <a href="../.." title="CASA Theoretical Knowledge" class="md-nav__button md-logo" aria-label="CASA Theoretical Knowledge" data-md-component="logo">
       
-  <img src="/TheoryKnowledge/assets/images/casalogo.png" alt="logo">
+  <img src="../../assets/images/casalogo.png" alt="logo">
 
     </a>
     CASA Theoretical Knowledge
@@ -322,7 +335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -399,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/perthad/" class="md-nav__link">
+      <a href="../../perthad/" class="md-nav__link">
         
   
   
@@ -431,24 +444,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -466,7 +484,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -484,7 +502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/acd/" class="md-nav__link">
+      <a href="../../acd/" class="md-nav__link">
         
   
   
@@ -512,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/smc/smc/" class="md-nav__link">
+      <a href="../smc/" class="md-nav__link">
         
   
   
@@ -540,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/smc/pushback/" class="md-nav__link">
+      <a href="../pushback/" class="md-nav__link">
         
   
   
@@ -568,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/smc/taxi/" class="md-nav__link">
+      <a href="../taxi/" class="md-nav__link">
         
   
   
@@ -596,7 +614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/smc/runways/" class="md-nav__link">
+      <a href="../runways/" class="md-nav__link">
         
   
   
@@ -621,10 +639,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/TheoryKnowledge/smc/transfer/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frequency Transfer to ADC
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -640,6 +685,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-explicitly-transfer-an-aircraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to explicitly transfer an aircraft?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -652,7 +728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/smc/atis/" class="md-nav__link">
+      <a href="../atis/" class="md-nav__link">
         
   
   
@@ -737,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/adc/adc/" class="md-nav__link">
+      <a href="../../adc/adc/" class="md-nav__link">
         
   
   
@@ -765,7 +841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/TheoryKnowledge/adc/adcdepartures/" class="md-nav__link">
+      <a href="../../adc/adcdepartures/" class="md-nav__link">
         
   
   
@@ -810,6 +886,27 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-explicitly-transfer-an-aircraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to explicitly transfer an aircraft?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -822,8 +919,60 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="frequency-transfer-to-adc">Frequency Transfer to ADC</h1>
+<h2 id="when-to-explicitly-transfer-an-aircraft">When to explicitly transfer an aircraft?</h2>
+<p>Once an aircraft is at the runway holding point, the SMC controller is no longer relevant for the aircraft - only ADC can clear the aircraft to either enter an active runway, or takeoff. In Australia, most domestic aircraft will independently contact the tower once at or approaching the holding point. For international aircraft, who may not be as familiar with local procedures, an explicit transfer is required. In the absence of ADC being online, aircraft at the holding point shall be instructed to monitor advisory on 122.8</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pilots on the ATC24 network and even on VATSIM are not aware of their duty to contact the tower controller autonomously and so it is best practice to provide an explicit frequency transfer to all departing aircraft. The main thing is to be consistent. You don't want an aircraft sitting idle at the holding point awaiting a frequency transfer from you. </p>
+</div>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><strong>PH SMC:</strong> "UAL2915, contact tower 124.7" <br>
+  <strong>UAL2915:</strong> "Tower 124.7, UAL2915" <br>
+  <strong>OR</strong> <br>
+  <strong>PH SMC:</strong> "QFA844, at the holding point, contact tower 124.7" <br>
+  <strong>QFA844:</strong> "Wilco, QFA844" </p>
+</div>
+<p>Ensure that you no longer need to have contact with the aircraft before this transfer, and that you have seperation assurance guaranteed all the way to the holding point. </p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="January 2, 2026 11:08:45 UTC">January 2, 2026</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -873,10 +1022,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/TheoryKnowledge/", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "search.share", "content.tooltips", "content.tabs.link"], "search": "/TheoryKnowledge/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "search.share", "content.tooltips", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/TheoryKnowledge/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

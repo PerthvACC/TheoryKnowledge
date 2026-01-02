@@ -22,12 +22,7 @@ This is the point to which the aircraft is cleared to. The aircraft cannot proce
 
 **Route of Flight**
 
-This is the route the aircraft will fly. If the clearance being issued matches the pilots filed route, this can be referenced by the first waypoint followed by the phrase FLIGHT PLANNED ROUTE. If the pilot has filed from one aerodrome to another with only a single intermediate waypoint in between, the phrase FLIGHT PLANNED ROUTE can be omitted. 
-
-Where an amended route is required, this should be communicated as below. The controller must communicate each new waypoint to the pilot, finishing either with the destination aerodrome or the point at which the amended route joins the filed route. 
-
-- via AMENDED [New Waypoint] [New Waypoint] ... [Destination]
-- via AMENDED [New Waypoint] [New Waypoint] [Existing Waypoint on Flight Plan] FLIGHT PLANNED ROUTE
+This is the route the aircraft will fly. The first waypoint and the words FLIGHT PLANNED ROUTE might be used to indicate whether the clearance being granted corresponds with the pilot's filed route. The word "FLIGHT PLANNED ROUTE" can be deleted if the pilot has flown from one aerodrome to another with only one intermediate waypoint. 
 
 If an aircraft has planned direct to an aerodrome with no intermediate waypoints, simply clear them 'direct'.
 
@@ -87,13 +82,13 @@ An airways clearance should always be delivered in the standard format to avoid 
 
 ## Readbacks
 
-Listen to the read back to ensure the pilot has received the information correctly, the delivery controller should correct any errors as soon as possible, there is no need to relay the entire clearance when responding with a correction, once all components have been correctly read back, they should respond with the aircraft's callsign only. 
+After all components have been accurately read back, the delivery controller should respond with the aircraft's callsign alone. Listen to the readback to make sure the pilot has received the information correctly, and correct any errors as soon as possible. This eliminates the need to relay the entire clearance when responding with a correction. 
 
 The controller should not respond with the phrase "Readback Correct", as that phraseology is not used in Australia.
 
 ## VFR Aircraft
 
-There is often confusion surrounding the handling of VFR aircraft in controlled airspace however the reality is that most phraseology transfers over from handling IFR aircraft with some tweaks. A VFR clearance will contain everything listed above however they cannot be assigned a SID. This is relevant when it comes time to issuing the departure procedure and initial altitude. 
+The handling of VFR aircraft in controlled airspace is frequently misunderstood, however the majority of phraseology actually applies to handling IFR aircraft with a few adjustments. All of the aforementioned information is included in a VFR clearance, however they are not eligible for a SID. When it comes to providing the first altitude and departure process, this is crucial. 
 
 !!! phraseology
       **PH ACD:** "GMO, cleared to Lukla via Stadium, climb to 2000ft, squawk 1271, departure frequency 135.25." <br>

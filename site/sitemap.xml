@@ -2,86 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/acd/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/perthad/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/perthtcu/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/phctr/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/adc/adc/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/adc/adcdepartures/</loc>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/adc/coord/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/controllerskills/callsigns/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/controllerskills/circuits/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/controllerskills/coordination/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/controllerskills/handover/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/controllerskills/heliops/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/controllerskills/rwymanagement/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/controllerskills/sequencing/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/smc/atis/</loc>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/smc/pushback/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/smc/runways/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/smc/smc/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/smc/taxi/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
+    </url>
+    <url>
+         <loc>https://perthvacc.github.io/TheoryKnowledge/smc/transfer/</loc>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/tcu/arrivals/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/tcu/coord/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
     <url>
          <loc>https://perthvacc.github.io/TheoryKnowledge/tcu/departures/</loc>
-         <lastmod>2025-12-29</lastmod>
+         <lastmod>2026-01-02</lastmod>
     </url>
 </urlset>

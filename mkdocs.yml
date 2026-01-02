@@ -1,4 +1,4 @@
-site_name: CASA Theoretical Knowledge
+site_name: CASA Theoretical Knowledge 
 site_url: https://perthvacc.github.io/TheoryKnowledge/
 
 nav:
@@ -11,6 +11,11 @@ nav:
     - smc/pushback.md
     - smc/taxi.md
     - smc/runways.md
+    - smc/transfer.md
+    - smc/atis.md
+  - S2 Rating:
+    - adc/adc.md
+    - adc/adcdepartures.md
 
 
 theme:
@@ -40,6 +45,15 @@ theme:
     - search.share
     - content.tooltips
     - content.tabs.link
+
+
+extra:
+  copyright: >
+      Information sourced from VATPAC Standard Operating Procedures (adapted), 
+      © VATSIM Australia Pacific (VATPAC), licensed under 
+      [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+  generator: true
+
 
 plugins:
   - search:
